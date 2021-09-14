@@ -1,22 +1,18 @@
-.sidebar {
+.rightsideBar {
+  width: 20vw;
+  margin-left: 5vw;
+  
   display: flex;
   flex-direction: column;
   padding: 10px;
-  
   border: 1px solid lightgray;
   border-radius: 5px;
   max-height: 85vh;
   background-color: white;
-  padding-right: 2%;
-  position: fixed;
-  width: 20vw;
-  margin-right: 70vw;
-
+  size: 1vw;
 }
 @media screen and (max-width: 600px) {
-  .sidebar {
-    width: 30vw;
+  .rightsideBar {
+      display: none;
   }
 }
-
-
