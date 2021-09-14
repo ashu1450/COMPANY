@@ -1,0 +1,9 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+.setting{
+    width: 60vw;
+    margin-left: 5vw;
+}

@@ -1,4 +1,4 @@
-.Profile {
+/* .Profile {
     margin-top: 1vw;
     width: 13vw;
     margin-left: 80vw;
@@ -11,6 +11,20 @@
     max-height: 85vh;
     background-color: rgb(189, 205, 211);
     size: 1vw;
+  } */
+  .Profile{
+    margin-top: 1vw;
+    width: 20vw;
+  margin-left: 5vw;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  max-height: 85vh;
+  background-color: rgb(189, 205, 211);
+  size: 1vw;
   }
 
   .SideBarItem1 {
@@ -54,4 +68,9 @@
       max-height: 85vh;
       size: 1vw;
     }
+  }
+
+  .profile-page{
+    display: flex;
+    justify-content: center;
   }

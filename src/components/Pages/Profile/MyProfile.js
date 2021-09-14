@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import NavBar from '../../NavBar';
+import Profile from './Profile';
+import './MyProfile.css';
 
-export default function MyProfile() {
+function MyProfile() {
     return (
-        <div>
-            My profile
+        <div className="container1">
+            <div>
+                <Profile />
+            </div>
+            <div className="myProfile">
+                <p> My profilej page </p>
+            </div>
         </div>
-    )
+    );
 }
+export default MyProfile;

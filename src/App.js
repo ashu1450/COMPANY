@@ -13,6 +13,9 @@ import './App.css';
   import Profile from './components/Pages/Profile/Profile';
   import SearchBar from './components/Pages/SearchBar';
   import Ans from './components/Pages/Ans/Ans';
+  import MyProfile from './components/Pages/Profile/MyProfile';
+  import Setting from './components/Pages/Profile/Setting';
+  
  
 function App() {
   // const [progress, setProgress] = useState(0);
@@ -22,6 +25,7 @@ function App() {
            <NavBar/>
 
              <Switch>
+             <Route  exact path="/"><Home  /></Route>
                  <Route  path="/home"><Home  /></Route>
                  <Route exact path="/companies"><Companies/></Route>
                  <Route exact path="/ans"><Ans/></Route>
@@ -29,6 +33,10 @@ function App() {
                  <Route exact path="/search"><SearchBar/></Route>
                  <Route exact path="/login"><Login/></Route>
                  <Route exact path="/profile"><Profile/></Route>
+                 * <Route exact path="/MyProfile"><MyProfile/></Route> *
+                 <Route exact path="/Setting"><Setting/></Route>
+
+
              </Switch>
        </Router>
 

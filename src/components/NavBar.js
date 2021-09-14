@@ -58,7 +58,7 @@ export default function NavBar() {
                                     show={loginShow} 
                                     onHide={() => LoginShow(false)}
                                 />
-                                <ReactBootStrap.Nav.Link as={Link} to="/profile" className="avatar"><Avatar /></ReactBootStrap.Nav.Link>
+                                <ReactBootStrap.Nav.Link as={Link} to="/MyProfile" className="avatar"><Avatar /></ReactBootStrap.Nav.Link>
 
                             </ReactBootStrap.Nav>
                         </ReactBootStrap.Navbar.Collapse>
