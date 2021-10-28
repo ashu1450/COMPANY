@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+
+
+.comp-head{
+
+  text-align: center;
+  margin: 3rem 20rem 3rem 20rem;
+
+  color: yellow;
+  background-color:#002147 ;
+
+}
+
+Table{
+  font-size: 80%;
+  display: inline;
+  position: relative;
+  left: 380px;
+  margin-bottom: 5rem;
+}
+
+.para{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.img{
+  height: 600px;
+  width: 800px;
+
+
+
+}
+
+.tr-head{
+
+ background-color: #002147;
+ color : yellow;
+}

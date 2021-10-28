@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+
 .container1{
     display: flex;
     justify-content: center;
@@ -6,4 +9,73 @@
 .myProfile{
     width: 60vw;
     margin-left: 5vw;
+
+}
+/* .mypro{
+  background-color:rgb(189, 205, 211);
+} */
+.add-pro{
+position: relative;
+bottom:80px;
+left: 150px;
+text-decoration: underline;
+font-size: 12px;
+}
+.fol{
+  position: relative;
+left: -250px;
+}
+
+.col{
+  font-size: 12px;
+}
+.col:hover{
+  text-decoration: underline;
+  color: red;
+  /* text-underline-offset: 5px; */
+}
+/* .form-des{
+  margin-left: 3rem;
+} */
+.container {
+
+  position: relative;
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+  padding: 2rem;
+  justify-content: center;
+}
+.button{
+  webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  position: relative;
+  bottom: 25px;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+
+}
+.button:hover {
+  background: #2f87bd;
+    background-image: -webkit-linear-gradient(top, #2f87bd, #193345);
+    background-image: -moz-linear-gradient(top, #2f87bd, #193345);
+    background-image: -ms-linear-gradient(top, #2f87bd, #193345);
+    background-image: -o-linear-gradient(top, #2f87bd, #193345);
+    background-image: linear-gradient(to bottom, #2f87bd, #193345);
+    text-decoration: none;
+}
+.btn{
+  webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  margin-left: 3rem;
+  font-size: 12px;
 }

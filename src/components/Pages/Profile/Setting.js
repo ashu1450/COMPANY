@@ -1,6 +1,7 @@
 import React from 'react'
 import Profile from './Profile';
 import './Setting.css'
+import *as ReactBootStrap from "react-bootstrap";
 
 export default function Setting() {
     return (
@@ -9,7 +10,8 @@ export default function Setting() {
                 <Profile />
             </div>
             <div className="setting">
-                <p>This is setting page</p>
+                <h6>Account Settings </h6>
+                <hr/>
             </div>
         </div>
     )
